@@ -28,6 +28,10 @@ cat lfi-urls.txt | python3 lfifinder.py
 echo "http://testphp.vulnweb.com" | waybackurls | gf lfi | uro | anew | python3 lfifinder.py
 echo "http://testphp.vulnweb.com" | waybackurls | gf lfi | uro | anew lfi-urls.txt # use this output in Multiple URLs
 ```
+## To get best results
+```
+open lfi_payloads.txt add your favraioute payloads
+```
 
 ## How It Works
 ```
