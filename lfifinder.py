@@ -46,7 +46,7 @@ for line in sys.stdin:
   # Strip the newline character from the end of the line
   line = line.strip()
 
-  # Create a ThreadPoolExecutor with 8 worker threads
+  # Create a ThreadPoolExecutor with 50 worker threads
   with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
     # Iterate through the payloads
     for payload in payloads:
