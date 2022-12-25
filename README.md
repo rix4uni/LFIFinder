@@ -25,7 +25,7 @@ cat lfi-urls.txt | python3 lfifinder.py
 
 ## Chaining With Other Tools
 ```
-echo "http://testphp.vulnweb.com" | waybackurls | gf lfi | uro | anew | python3 lfifinder.py
+echo "http://testphp.vulnweb.com" | waybackurls | gf lfi | uro | anew | python3 lfifinder.py --threads 50
 echo "http://testphp.vulnweb.com" | waybackurls | gf lfi | uro | anew lfi-urls.txt # use this output in Multiple URLs
 ```
 ## To get best results
