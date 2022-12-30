@@ -6,7 +6,7 @@ A Light Weight Tool for checking Local File Inclusion (LFI) vulnerabilities by r
 ```
 git clone https://github.com/rix4uni/LFIFinder.git
 cd LFIFinder
-#pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Example usages
